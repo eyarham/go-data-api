@@ -3,3 +3,5 @@
     --header "Content-Type: application/json" \
     --request "POST" \
     --data '{"title": "test1","artist": "test4","price": 144}'
+
+ curl http://localhost:8080/albums 
