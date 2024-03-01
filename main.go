@@ -1,7 +1,7 @@
 package main
 
 import (
-	queries "mygoapi/my-sql-api/internal/database"
+	queries "github.com/eyarham/go-data-api/internal/database"
 	"net/http"
 	"strconv"
 	"github.com/gin-gonic/gin"

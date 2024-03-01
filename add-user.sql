@@ -1,4 +1,4 @@
-DROP USER if EXISTS 'admin'@'localhost';
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'morphemetime';
-GRANT ALL on recordings.* TO 'admin'@'localhost' WITH GRANT OPTION;
-show create user 'admin'@'localhost';
+DROP USER if EXISTS 'apiservice'@'localhost';
+CREATE USER 'apiservice'@'localhost' IDENTIFIED BY 'badpassword';
+GRANT ALL on recordings.* TO 'apiservice'@'localhost' WITH GRANT OPTION;
+show create user 'apiservice'@'localhost';

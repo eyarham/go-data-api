@@ -1,4 +1,4 @@
-module mygoapi/my-sql-api
+module github.com/eyarham/go-data-api
 
 go 1.22.0
 
